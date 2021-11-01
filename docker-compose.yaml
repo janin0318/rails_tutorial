@@ -6,7 +6,7 @@ services:
       POSTGRES_PASSWORD: secret
     volumes:
       - ./postgresql/data:/var/lib/postgresql/data
-  web:
+  rails_tutorial:
     build:
       context: .
       dockerfile: Dockerfile

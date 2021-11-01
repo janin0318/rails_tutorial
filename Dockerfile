@@ -7,4 +7,4 @@ RUN mkdir /sample_app
 WORKDIR /sample_app
 COPY . /sample_app
 # 後で有効化
-RUN bundle install 
+# RUN bundle install 
