@@ -7,4 +7,4 @@ RUN mkdir /rails_tutorial
 WORKDIR /rails_tutorial
 COPY . /rails_tutorial
 # 後で有効化
-# RUN bundle install 
+RUN bundle install 
